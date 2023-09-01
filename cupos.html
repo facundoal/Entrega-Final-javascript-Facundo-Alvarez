@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="estilos.css">
+    <title>Document</title>
+</head>
+<body>
+  <header>
+    <nav>
+        
+        <a href="scanners.html" data-pagina="scanners">Scanners </div></a>
+        <a href="impresoras.html" data-pagina="impresoras">Impresoras</a>
+        <a href="estampadoras.html" data-pagina="estampadoras">Estampadoras</a>
+        
+        <a href="cupos.html" data-pagina="cupos">Cupos</a>
+        <a href="dictantes.html" data-pagina="dictantes">Dictantes</a>
+        <a href="sesion.html" data-pagina="sesion">Inicio de sesion</a>
+    </nav>
+
+    <nav1>
+    <a href="formacion.html" data-pagina="formacion">Formacion</a>
+    <a href="requerimientos.html" data-pagina="requerimientos">Requerimientos</a>
+  </nav1>
+</header>
+    <h1>Cupos disponibles para el U-align 2023</h1>
+    <ul id="Cupos Disponibles"></ul>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script>
+
+  let elementosLista = document.getElementById("Cupos Disponibles");
+        let contenidoLista = "";
+        let arrayCupos = ["Agosto : Agotado", "Septiembre : Agotado", 
+        "Octubre : Agotado", "Noviembre : Disponibilidad","Diciembre : Disponibilidad" ];
+
+for (let i = 0; i < arrayCupos.length; i++ ) {
+  contenidoLista += "<li>" + arrayCupos[i] + "</li>";
+}
+elementosLista.innerHTML = contenidoLista;
+
+
+
+    </script>
+</body>
+</html>

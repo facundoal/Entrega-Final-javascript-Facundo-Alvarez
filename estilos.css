@@ -1,0 +1,242 @@
+header {
+    height: 50px;
+    display: grid;
+    justify-content: space-between;
+    padding: 2px;
+    margin: 3px 3px 3px 3px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
+    background-color: black;
+    color: white;
+}
+
+
+header nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 0.5rem;
+}
+header nav1 a {
+    color: white;
+    text-decoration: none;
+    margin: 0 0.5rem;
+}
+
+body{
+    background-color: orange;
+}
+
+h1{
+    text-align: center;
+    color: black;
+}
+
+.encabezadosca{
+text-align: center;
+color: black;
+}
+
+.parrafosca{
+    text-align: center;
+    color: white;
+    font-size: 25px;
+}
+
+.scannerFoto {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: orange;
+  }
+  
+  .foto {
+    height: 300px;
+    width: 420px;
+    background-color: orange;
+    border: 5px solid black;
+  }
+
+  .foto:hover {
+    transform: scale(1.20);
+    transition: all 0.9s;
+    box-shadow: inset;
+  }
+  
+  .foto1 {
+    background-image: url(img/scanner.jpg.jpeg);
+    background-size: cover;
+  }
+  
+  .foto2 {
+    background-image: url(img/scanner\ 2.webp);
+    background-size: cover;
+  }
+  
+  .foto3 {
+    background-image: url(img/scanner\ 3.jpg);
+    background-size: cover;
+  }
+
+  .impresoras{
+    height: 300px;
+    width: 100%;
+    background-position: center;
+    background-color: orange;
+    border: 5px solid black;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 150px;
+    grid-template-areas: none;
+    padding: 15px;
+    grid-gap: 15px;
+    border-radius: 10px;
+  }
+  .impresoras {
+    border-radius: 10px;
+    background-position: center;
+  }
+  
+  .imagen:hover {
+    transform: scale(1.09);
+    transition: all 0.9s;
+    box-shadow: inset;
+  }
+
+  .imagen{
+    height: 260px;
+  }
+  
+  .imagen1 {
+    background-image: url(img/WhatsApp\ Image\ 2023-08-20\ at\ 18.35.17\ \(2\).jpeg);
+    border: 4px solid black;
+    background-size: cover;
+  }
+  
+  .imagen2 {
+    background-image: url(/img/impresora3d\ 2.jpg);
+    border: 4px solid black;
+    background-size: cover;
+  }
+  
+  .imagen3 {
+    background-image: url(/img/impresora\ 3d\ 3.jpg);
+    border: 4px solid black;
+    background-size: cover;
+  }
+
+  .textoIMP{
+    display: inline;
+    width: 80%;
+    height: 300px;
+    text-align: center;
+    margin: 10px 10px 10px 10px;
+    padding: 5px 5px 5px 5px;
+    justify-content: space-between;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+  .requerimientos{
+    text-align: center;
+    color: black;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+  .compus {
+    height: 100%;
+    width: 98%;
+    background-color: orange;
+    border: 5px solid black;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 200px 200px;
+    grid-template-areas: "compu1 compu2 ";
+    padding: 15px;
+    grid-gap: 15px;
+    border-radius: 10px;
+  }
+  
+  .compu {
+    border-radius: 10px;
+    background-position: center;
+  }
+  
+  .compu:hover {
+    transform: scale(1.09);
+    transition: all 0.9s;
+    box-shadow: inset;
+  }
+  
+  .compu1 {
+    background-image: url(img/laptop\ 1.png);
+    border: 4px solid black;
+    background-size: contain;
+  }
+  
+  .compu2 {
+    background-image: url(img/laptop\ 2.jpg);
+    border: 4px solid black;
+    background-size: contain;
+  }
+  
+  .compu3 {
+    background-image: url(img/laptop\ 3.jpg);
+    border: 4px solid black;
+    background-size: contain;
+  }
+  
+  .compu4 {
+    background-image: url(img/laptop\ 4.jpg);
+    background-size: contain;
+    border: 4px solid black;
+  }
+
+  h2{
+    text-align: center;
+    color: white;
+    font-size: 50px;
+  }
+
+  .cardsFormacion{
+    display: flex;
+  }
+
+  .card{
+    margin: 10px 10px 10px 10px;
+    padding: 10px 10px 10px 10px;
+  }
+
+  .card-img-top{
+    background-size: contain;
+    height: 200px;
+  }
+
+
+
+
+
+
+
+
+
+
+  .fotoEstampadoras{
+    height: 600px;
+    width: 95%;
+    background-image: url(/img/estampadoras.jpeg);
+    border: 7px solid black;
+    margin: 10px 10px 10px 10px;
+    padding: 10px 10px 10px 10px ;
+  }
+  
+  .infoEstampadoras{
+    height: 300px;
+    color: black;
+    font-family:Arial, Helvetica, sans-serif;
+    padding: 2px 2px 2px 2px;
+    margin: 5px 5px 5px 5px;
+    font-size: 22px;
+    text-align: center;
+    font-weight: bold;
+  }
